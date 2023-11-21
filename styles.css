@@ -35,7 +35,7 @@ body {
 }
 
 .top {
-    height: 45%;
+    height: 50%;
     width: 100%;
 }
 
@@ -49,13 +49,13 @@ body {
 
 .img-flash {
     position: absolute;
-    top: 10px;
-    width: 150px;
+    top: 15px;
+    width: 200px;
 }
 
 .bottom {
     position: relative;
-    height: 55%;
+    height: 50%;
     width: 100%;
     padding: 0 .7rem
 }
