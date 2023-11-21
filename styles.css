@@ -13,8 +13,8 @@
     --bg: black;
     --bg-card: #272d37;
     --border-buttom: rgb(185, 39, 68);
-    --bg-clip-h2: linear-gradient(to bottom, rgba(237, 193, 34, 0.8) 30%, rgba(228,114,19,0.8) 100%);;
-    --text-color: rgb(199, 193, 193);
+    --bg-clip-h2: linear-gradient(to bottom, #dddf3b 50%, #a51818 100%);;
+    --text-color: aliceblue;
 }
 
 body {
