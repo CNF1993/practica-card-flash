@@ -67,10 +67,11 @@ body {
     -webkit-background-clip: text;
     margin-top: 0.9rem;
     margin-bottom: -0.1rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 .container p {
-    font-size: .6rem;
+    font-size: .8rem;
     color: var(--text-color);
 }
 
