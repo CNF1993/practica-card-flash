@@ -29,8 +29,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background: var(--bg-card);
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 450px;
     border-radius: 1rem;
 }
 
