@@ -90,11 +90,16 @@ button {
     box-shadow: 0 0 10px 0 var(--border-buttom);
 }
 
-.img-flash:hover {
-    box-shadow: 0 0 1px -10px rgba(255, 255, 0, 0.568);
+button:hover {
+    background: var(--border-buttom);
 }
 
-a {
-    text-decoration: none;
-    color: black;
+button:active {
+    border: 1px solid whitesmoke;
 }
+
+.img-flash:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 0, 0.568);
+    
+}
+
