@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
     transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -32,7 +35,7 @@ body {
 }
 
 .top {
-    height: 50%;
+    height: 45%;
     width: 100%;
 }
 
@@ -46,13 +49,13 @@ body {
 
 .img-flash {
     position: absolute;
-    top: 25px;
+    top: 10px;
     width: 150px;
 }
 
 .bottom {
     position: relative;
-    height: 50%;
+    height: 55%;
     width: 100%;
     padding: 0 .7rem
 }
@@ -62,8 +65,8 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    margin-top: 1rem;
-    margin-bottom: 0.3rem;
+    margin-top: 0.9rem;
+    margin-bottom: -0.1rem;
     font-weight: bold;
 }
 .container p {
