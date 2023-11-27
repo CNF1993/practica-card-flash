@@ -17,9 +17,12 @@
     --text-color: aliceblue;
 }
 
-body {
+.container {
     background: var(--bg);
     padding: 6rem;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);;
 }
 
 .card {
@@ -60,7 +63,7 @@ body {
     padding: 0 .7rem
 }
 
-.container h2 {
+.card h2 {
     background: var(--bg-clip-h2);
     color: transparent;
     background-clip: text;
@@ -70,7 +73,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
-.container p {
+.card p {
     font-size: .8rem;
     color: var(--text-color);
 }
@@ -90,7 +93,7 @@ button {
     cursor: pointer;
 }
 
-.container:hover, button:hover {
+.card:hover, button:hover {
     box-shadow: 0 0 25px 0 var(--border-buttom);
 }
 
